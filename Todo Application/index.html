@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./archive.html">Archive</a>
+    </nav>
+
+    <div class="container">
+        <h1>Create Todo</h1>
+        <form id="todo-form">
+            <input type="text" id="todo-title" placeholder="Enter todo name">
+            <select id="todo-priority">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <button type="submit">Add Todo</button>
+        </form>
+
+        <h2>Todo List</h2>
+        <table id="todo-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Priority</th>
+                    <th>Status</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Todos will be dynamically added here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./scripts/index.js"></script>
+</body>
+</html>

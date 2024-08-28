@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archive Todo</title>
+    <link rel="stylesheet" href="./styles/archive.css">
+</head>
+<body>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./archive.html">Archive</a>
+    </nav>
+
+    <div class="container">
+        <h1>Archived Todos</h1>
+        <div class="filters">
+            <label for="priority-filter">Filter by Priority:</label>
+            <select id="priority-filter">
+                <option value="">All</option>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <label for="status-filter">Filter by Status:</label>
+            <select id="status-filter">
+                <option value="">All</option>
+                <option value="Pending🔃">Pending</option>
+                <option value="Completed✅">Completed</option>
+            </select>
+        </div>
+        
+        <table id="archive-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Priority</th>
+                    <th>Status</th>
+                    <th>Restore</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Archived todos will be dynamically added here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./scripts/archive.js"></script>
+</body>
+</html>
