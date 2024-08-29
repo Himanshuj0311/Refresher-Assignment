@@ -1,0 +1,492 @@
+{
+  "players": [
+    {
+      "id": "1",
+      "name": "Player One",
+      "teamCode": "T01",
+      "image": "https://scores.iplt20.com/ipl/playerimages/PlayerOne.png?v=4",
+      "totalRuns": 500,
+      "fours": 40,
+      "sixes": 20,
+      "strikeRate": 130.5,
+      "fiftyPlusRuns": 5,
+      "centuries": 1
+    },
+    {
+      "id": "2",
+      "name": "Player Two",
+      "teamCode": "T02",
+      "image": "https://scores.iplt20.com/ipl/playerimages/PlayerTwo.png?v=4",
+      "totalRuns": 300,
+      "fours": 25,
+      "sixes": 10,
+      "strikeRate": 115.3,
+      "fiftyPlusRuns": 2,
+      "centuries": 0
+    },
+    {
+      "id": "3",
+      "name": "Player Three",
+      "teamCode": "T01",
+      "image": "https://scores.iplt20.com/ipl/playerimages/PlayerThree.png?v=4",
+      "totalRuns": 450,
+      "fours": 35,
+      "sixes": 15,
+      "strikeRate": 120.4,
+      "fiftyPlusRuns": 3,
+      "centuries": 2
+    },
+    {
+      "id": "4",
+      "name": "Player Four",
+      "teamCode": "T03",
+      "image": "https://scores.iplt20.com/ipl/playerimages/PlayerFour.png?v=4",
+      "totalRuns": 350,
+      "fours": 30,
+      "sixes": 12,
+      "strikeRate": 125,
+      "fiftyPlusRuns": 4,
+      "centuries": 1
+    },
+    {
+      "id": "5",
+      "name": "Player Five",
+      "teamCode": "T04",
+      "image": "https://scores.iplt20.com/ipl/playerimages/PlayerFive.png?v=4",
+      "totalRuns": 200,
+      "fours": 20,
+      "sixes": 5,
+      "strikeRate": 105,
+      "fiftyPlusRuns": 1,
+      "centuries": 0
+    },
+    {
+      "id": "6",
+      "name": "Player Six",
+      "teamCode": "T02",
+      "image": "https://scores.iplt20.com/ipl/playerimages/PlayerSix.png?v=4",
+      "totalRuns": 600,
+      "fours": 50,
+      "sixes": 25,
+      "strikeRate": 140.5,
+      "fiftyPlusRuns": 6,
+      "centuries": 3
+    },
+    {
+      "id": "7",
+      "name": "Player Seven",
+      "teamCode": "T01",
+      "image": "https://scores.iplt20.com/ipl/playerimages/PlayerSeven.png?v=4",
+      "totalRuns": 550,
+      "fours": 45,
+      "sixes": 22,
+      "strikeRate": 135.2,
+      "fiftyPlusRuns": 7,
+      "centuries": 2
+    },
+    {
+      "id": "8",
+      "name": "Player Eight",
+      "teamCode": "T03",
+      "image": "https://scores.iplt20.com/ipl/playerimages/PlayerEight.png?v=4",
+      "totalRuns": 400,
+      "fours": 32,
+      "sixes": 14,
+      "strikeRate": 110.8,
+      "fiftyPlusRuns": 3,
+      "centuries": 1
+    },
+    {
+      "id": "9",
+      "name": "Player Nine",
+      "teamCode": "T04",
+      "image": "https://scores.iplt20.com/ipl/playerimages/PlayerNine.png?v=4",
+      "totalRuns": 250,
+      "fours": 22,
+      "sixes": 8,
+      "strikeRate": 100,
+      "fiftyPlusRuns": 2,
+      "centuries": 0
+    },
+    {
+      "id": "10",
+      "name": "Player Ten",
+      "teamCode": "T02",
+      "image": "https://scores.iplt20.com/ipl/playerimages/PlayerTen.png?v=4",
+      "totalRuns": 700,
+      "fours": 60,
+      "sixes": 30,
+      "strikeRate": 150,
+      "fiftyPlusRuns": 8,
+      "centuries": 4
+    },
+    {
+      "id": "11",
+      "name": "Player Eleven",
+      "teamCode": "T01",
+      "image": "https://scores.iplt20.com/ipl/playerimages/PlayerEleven.png?v=4",
+      "totalRuns": 320,
+      "fours": 27,
+      "sixes": 11,
+      "strikeRate": 115.6,
+      "fiftyPlusRuns": 2,
+      "centuries": 0
+    },
+    {
+      "id": "12",
+      "name": "Player Twelve",
+      "teamCode": "T03",
+      "image": "https://scores.iplt20.com/ipl/playerimages/PlayerTwelve.png?v=4",
+      "totalRuns": 400,
+      "fours": 30,
+      "sixes": 10,
+      "strikeRate": 120,
+      "fiftyPlusRuns": 3,
+      "centuries": 1
+    },
+    {
+      "id": "13",
+      "name": "Player Thirteen",
+      "teamCode": "T04",
+      "image": "https://scores.iplt20.com/ipl/playerimages/PlayerThirteen.png?v=4",
+      "totalRuns": 380,
+      "fours": 28,
+      "sixes": 12,
+      "strikeRate": 118.5,
+      "fiftyPlusRuns": 2,
+      "centuries": 0
+    },
+    {
+      "id": "14",
+      "name": "Player Fourteen",
+      "teamCode": "T01",
+      "image": "https://scores.iplt20.com/ipl/playerimages/PlayerFourteen.png?v=4",
+      "totalRuns": 330,
+      "fours": 25,
+      "sixes": 8,
+      "strikeRate": 110,
+      "fiftyPlusRuns": 1,
+      "centuries": 0
+    },
+    {
+      "id": "15",
+      "name": "Player Fifteen",
+      "teamCode": "T02",
+      "image": "https://scores.iplt20.com/ipl/playerimages/PlayerFifteen.png?v=4",
+      "totalRuns": 250,
+      "fours": 20,
+      "sixes": 6,
+      "strikeRate": 95,
+      "fiftyPlusRuns": 1,
+      "centuries": 0
+    },
+    {
+      "id": "16",
+      "name": "Player Sixteen",
+      "teamCode": "T03",
+      "image": "https://scores.iplt20.com/ipl/playerimages/PlayerSixteen.png?v=4",
+      "totalRuns": 550,
+      "fours": 40,
+      "sixes": 18,
+      "strikeRate": 130,
+      "fiftyPlusRuns": 5,
+      "centuries": 2
+    },
+    {
+      "id": "17",
+      "name": "Player Seventeen",
+      "teamCode": "T04",
+      "image": "https://scores.iplt20.com/ipl/playerimages/PlayerSeventeen.png?v=4",
+      "totalRuns": 290,
+      "fours": 23,
+      "sixes": 9,
+      "strikeRate": 105,
+      "fiftyPlusRuns": 2,
+      "centuries": 0
+    },
+    {
+      "id": "18",
+      "name": "Player Eighteen",
+      "teamCode": "T01",
+      "image": "https://scores.iplt20.com/ipl/playerimages/PlayerEighteen.png?v=4",
+      "totalRuns": 370,
+      "fours": 28,
+      "sixes": 10,
+      "strikeRate": 110,
+      "fiftyPlusRuns": 2,
+      "centuries": 1
+    },
+    {
+      "id": "19",
+      "name": "Player Nineteen",
+      "teamCode": "T02",
+      "image": "https://scores.iplt20.com/ipl/playerimages/PlayerNineteen.png?v=4",
+      "totalRuns": 420,
+      "fours": 34,
+      "sixes": 15,
+      "strikeRate": 120,
+      "fiftyPlusRuns": 4,
+      "centuries": 1
+    },
+    {
+      "id": "20",
+      "name": "Player Twenty",
+      "teamCode": "T03",
+      "image": "https://scores.iplt20.com/ipl/playerimages/PlayerTwenty.png?v=4",
+      "totalRuns": 310,
+      "fours": 22,
+      "sixes": 7,
+      "strikeRate": 105,
+      "fiftyPlusRuns": 1,
+      "centuries": 0
+    }
+  ],
+  "teams": [
+    {
+      "code": "T01",
+      "name": "Team One",
+      "logo": "https://example.com/team1-logo.png",
+      "id": "8c18"
+    },
+    {
+      "code": "T02",
+      "name": "Team Two",
+      "logo": "https://example.com/team2-logo.png",
+      "id": "667f"
+    },
+    {
+      "code": "T03",
+      "name": "Team Three",
+      "logo": "https://example.com/team3-logo.png",
+      "id": "b258"
+    },
+    {
+      "code": "T04",
+      "name": "Team Four",
+      "logo": "https://example.com/team4-logo.png",
+      "id": "0d27"
+    }
+  ],
+  "matches": [
+    {
+      "id": "1",
+      "teamOne": "T01",
+      "teamTwo": "T02",
+      "currentSummary": {
+        "currentFallScore": 3964,
+        "currentFallWickets": 44,
+        "currentFallOvers": "4.8",
+        "currentInnings": "First Innings"
+      }
+    },
+    {
+      "id": "2",
+      "teamOne": "T03",
+      "teamTwo": "T04",
+      "currentSummary": {
+        "currentFallScore": 0,
+        "currentFallWickets": 0,
+        "currentFallOvers": 0,
+        "currentInnings": "First Innings"
+      }
+    },
+    {
+      "id": "3",
+      "teamOne": "T01",
+      "teamTwo": "T03",
+      "currentSummary": {
+        "currentFallScore": 0,
+        "currentFallWickets": 0,
+        "currentFallOvers": 0,
+        "currentInnings": "First Innings"
+      }
+    },
+    {
+      "id": "4",
+      "teamOne": "T02",
+      "teamTwo": "T04",
+      "currentSummary": {
+        "currentFallScore": 0,
+        "currentFallWickets": 0,
+        "currentFallOvers": 0,
+        "currentInnings": "First Innings"
+      }
+    },
+    {
+      "id": "5",
+      "teamOne": "T01",
+      "teamTwo": "T04",
+      "currentSummary": {
+        "currentFallScore": 0,
+        "currentFallWickets": 0,
+        "currentFallOvers": 0,
+        "currentInnings": "First Innings"
+      }
+    },
+    {
+      "id": "6",
+      "teamOne": "T02",
+      "teamTwo": "T03",
+      "currentSummary": {
+        "currentFallScore": 2068,
+        "currentFallWickets": 27,
+        "currentFallOvers": 5.9,
+        "currentInnings": "First Innings"
+      }
+    },
+    {
+      "id": "7",
+      "teamOne": "T04",
+      "teamTwo": "T01",
+      "currentSummary": {
+        "currentFallScore": 0,
+        "currentFallWickets": 0,
+        "currentFallOvers": 0,
+        "currentInnings": "First Innings"
+      }
+    },
+    {
+      "id": "8",
+      "teamOne": "T03",
+      "teamTwo": "T02",
+      "currentSummary": {
+        "currentFallScore": 0,
+        "currentFallWickets": 0,
+        "currentFallOvers": 0,
+        "currentInnings": "First Innings"
+      }
+    },
+    {
+      "id": "9",
+      "teamOne": "T04",
+      "teamTwo": "T02",
+      "currentSummary": {
+        "currentFallScore": 0,
+        "currentFallWickets": 0,
+        "currentFallOvers": 0,
+        "currentInnings": "First Innings"
+      }
+    },
+    {
+      "id": "10",
+      "teamOne": "T01",
+      "teamTwo": "T02",
+      "currentSummary": {
+        "currentFallScore": 0,
+        "currentFallWickets": 0,
+        "currentFallOvers": 0,
+        "currentInnings": "First Innings"
+      }
+    },
+    {
+      "id": "11",
+      "teamOne": "T03",
+      "teamTwo": "T04",
+      "currentSummary": {
+        "currentFallScore": 0,
+        "currentFallWickets": 0,
+        "currentFallOvers": 0,
+        "currentInnings": "First Innings"
+      }
+    },
+    {
+      "id": "12",
+      "teamOne": "T01",
+      "teamTwo": "T03",
+      "currentSummary": {
+        "currentFallScore": 0,
+        "currentFallWickets": 0,
+        "currentFallOvers": 0,
+        "currentInnings": "First Innings"
+      }
+    },
+    {
+      "id": "13",
+      "teamOne": "T02",
+      "teamTwo": "T04",
+      "currentSummary": {
+        "currentFallScore": 0,
+        "currentFallWickets": 0,
+        "currentFallOvers": 0,
+        "currentInnings": "First Innings"
+      }
+    },
+    {
+      "id": "14",
+      "teamOne": "T01",
+      "teamTwo": "T04",
+      "currentSummary": {
+        "currentFallScore": 0,
+        "currentFallWickets": 0,
+        "currentFallOvers": 0,
+        "currentInnings": "First Innings"
+      }
+    },
+    {
+      "id": "15",
+      "teamOne": "T02",
+      "teamTwo": "T03",
+      "currentSummary": {
+        "currentFallScore": 0,
+        "currentFallWickets": 0,
+        "currentFallOvers": 0,
+        "currentInnings": "First Innings"
+      }
+    },
+    {
+      "id": "16",
+      "teamOne": "T04",
+      "teamTwo": "T01",
+      "currentSummary": {
+        "currentFallScore": 0,
+        "currentFallWickets": 0,
+        "currentFallOvers": 0,
+        "currentInnings": "First Innings"
+      }
+    },
+    {
+      "id": "17",
+      "teamOne": "T03",
+      "teamTwo": "T02",
+      "currentSummary": {
+        "currentFallScore": 0,
+        "currentFallWickets": 0,
+        "currentFallOvers": 0,
+        "currentInnings": "First Innings"
+      }
+    },
+    {
+      "id": "18",
+      "teamOne": "T04",
+      "teamTwo": "T02",
+      "currentSummary": {
+        "currentFallScore": 0,
+        "currentFallWickets": 0,
+        "currentFallOvers": 0,
+        "currentInnings": "First Innings"
+      }
+    },
+    {
+      "id": "19",
+      "teamOne": "T01",
+      "teamTwo": "T02",
+      "currentSummary": {
+        "currentFallScore": 0,
+        "currentFallWickets": 0,
+        "currentFallOvers": 0,
+        "currentInnings": "First Innings"
+      }
+    },
+    {
+      "id": "20",
+      "teamOne": "T03",
+      "teamTwo": "T04",
+      "currentSummary": {
+        "currentFallScore": 0,
+        "currentFallWickets": 0,
+        "currentFallOvers": 0,
+        "currentInnings": "First Innings"
+      }
+    }
+  ]
+}

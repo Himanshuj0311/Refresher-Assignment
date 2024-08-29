@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Dashboard</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./matches.html">Matches</a>
+    </nav>
+
+    <div class="container">
+        <h1>Player Dashboard</h1>
+
+        <!-- Search and Filters -->
+        <div>
+            <label for="search">Search:</label>
+            <input type="text" id="search" placeholder="Search by player name">
+
+           <label for="nationality">Nationality:</label>
+            <select id="nationality">
+                <option value="">All</option> 
+                <!-- Options will be populated dynamically -->
+             </select> 
+
+            <label for="team">Team:</label>
+            <select id="team">
+                <option value="">All</option>
+                <!-- Options will be populated dynamically -->
+            </select>
+
+            <label for="sort">Sort By:</label>
+            <select id="sort">
+                <option value="totalRuns">Total Runs</option>
+                <option value="sixes">Sixes</option>
+                <option value="fours">Fours</option>
+                <option value="strikeRate">Strike Rate</option>
+            </select>
+        </div>
+
+        <!-- Player Table -->
+        <div id="player-table"></div>
+
+        <!-- Pagination Controls -->
+        <div id="pagination-controls"></div>
+    </div>
+
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
