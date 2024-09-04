@@ -1,0 +1,22 @@
+{
+  "name": "stock-management-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.6.0",
+    "mongoose-aggregate-paginate-v2": "^1.1.2",
+    "nodemon": "^3.1.4",
+    "redis": "^4.7.0",
+    "winston": "^3.14.2"
+  }
+}
