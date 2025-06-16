@@ -61,3 +61,56 @@ db.tasks.find({
     $lte: nextWeek
   }
 })
+
+// 1. Switch to (or create) the database
+use Library_DB;
+
+// 2. Create the books collection (optional, will be auto-created on insert)
+db.createCollection("books");
+
+// 3. Insert sample book data
+db.books.insertMany([
+  {
+    book_id: 1,
+    title: "The Silent Patient",
+    author: "Alex Michaelides",
+    genre: "thriller",
+    available: true
+  },
+  {
+    book_id: 2,
+    title: "To Kill a Mockingbird",
+    author: "Harper Lee",
+    genre: "fiction",
+    available: false
+  },
+  {
+    book_id: 3,
+    title: "Sapiens: A Brief History of Humankind",
+    author: "Yuval Noah Harari",
+    genre: "non-fiction",
+    available: true
+  },
+  {
+    book_id: 4,
+    title: "1984",
+    author: "George Orwell",
+    genre: "fiction",
+    available: true
+  },
+  {
+    book_id: 5,
+    title: "Educated",
+    author: "Tara Westover",
+    genre: "non-fiction",
+    available: false
+  }
+]);
+
+// 4. Retrieve all books
+print("\n📚 All Books:");
+db.books.find().forEach(printjson);
+
+// 5. Retrieve books of genre 'fiction'
+print("\n📘 Fiction Books:");
+db.books.find({ genre: "fiction" }).forEach(printjson);
